@@ -156,5 +156,4 @@ def PatternMatching2(num1: Int, num2: Int, doAddition: Boolean): Int = {
 }
 num4 = PatternMatching2(3, 3, true)
 println(num4)
-
-//println(java.util.TimeZone.getAvailableIDs.splitAt(/))
+val time: Array[String] = java.util.TimeZone.getAvailableIDs
