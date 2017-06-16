@@ -159,5 +159,5 @@ println(num4)
 
 import java.util.TimeZone.getAvailableIDs
 val time: Array[String] = java.util.TimeZone.getAvailableIDs
-val newTime = time.map(s=>s.split("/")).filter(_.length>1).map(a=>a(1)).grouped(10).map(a=>a(0)).toArray
+val newTime = time.map(s=>s.split("/")).filter(_.length>1).map(_.apply(1)).grouped(10).map(_.apply(0)).toArray
 
